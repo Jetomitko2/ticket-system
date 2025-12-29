@@ -74,6 +74,7 @@ It is suitable for:
 ├── requirements.txt
 └── exports/
   └── html/
+```
 
 Requirements
 
@@ -103,14 +104,14 @@ The bot will not start without the .env file.
 Step 3 – Configure the .env File
 
 Open .env and fill in your values:
-
+```
 BOT_TOKEN=YOUR_DISCORD_BOT_TOKEN
 
 CREATE_CHANNEL_ID=CHANNEL_ID_FOR_TICKET_PANEL
 TICKET_CATEGORY_ID=CATEGORY_ID_FOR_ACTIVE_TICKETS
 ARCHIVE_CATEGORY_ID=CATEGORY_ID_FOR_ARCHIVED_TICKETS
 SUPPORT_ROLE_ID=SUPPORT_ROLE_ID
-
+```
 How to Get Discord IDs (Channels, Categories, Roles)
 
 Open Discord
